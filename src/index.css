@@ -1,0 +1,47 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+  background-color: lightblue;
+  box-sizing: border-box;
+}
+.container{
+  background-color: #ffffff;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  font-size: 2rem;
+  padding: 2rem;
+  flex-wrap: wrap;
+}
+.favourite-container{
+    border-top: 2px solid lightblue;
+    padding: 0;
+    margin-top: 2rem;
+    padding-top: 1rem;
+}
+.btn{
+  cursor: pointer;
+}
+.films-part{
+  position: relative;
+  overflow: hidden;
+}
+.favouriteAdd{
+  position: absolute;
+  border-radius: 5px;
+  padding: 0.5rem;
+  bottom: 0%;
+  animation: favouritePopUp;
+  left: 50%;
+  transform: translate(-50%, 0);
+  width: 15rem;
+  box-sizing: border-box;
+  animation-duration: 0.5s;
+  font-size: 1rem;
+}
+
+@keyframes favouritePopUp {
+  0%{bottom: -20rem}
+  100%{bottom : 0%}
+}
