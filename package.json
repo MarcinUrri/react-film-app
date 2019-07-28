@@ -5,7 +5,7 @@
   "homepage": "https://github.com/MarcinUrri/react-film-app.git",
   "dependencies": {
     "react": "^16.2.0",
-    "react-dom": "^16.2.0",
+    "react-dom": "^16.2.1",
     "react-scripts": "1.1.1",
     "superagent": "^3.8.2"
   },
